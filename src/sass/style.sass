@@ -21,8 +21,9 @@ h2
     font-weight: bold
     +rfs(36)
     color: black
-
-    &__white
+.h2-additional
+    color: white
+    padding-bottom: 35px
 p 
     +rfs(16)
     font-weight: normal
@@ -89,7 +90,9 @@ a
         max-width: 540px
         margin: 0 auto
         line-height: 150%
-        
+
+    // Second screen       
+
 .description
     padding-top: 55px
     padding-bottom: 90px
@@ -125,7 +128,7 @@ a
         width: 13px
         height: 13px
 
-// Main screen
+// third screen
 .features
     padding-top: 63px
     padding-bottom: 70px
@@ -162,3 +165,66 @@ a
     position: relative
     bottom: 157px
     z-index: 1
+
+// fourth screen
+
+.technology
+    padding-top: 65px
+    padding-bottom: 150px
+
+    &-title
+        padding-bottom: 55px
+    
+    &__number
+        font-weight: bold
+        font-size: 100px
+        color: rgba(16, 16, 16, 0.08)
+        position: relative
+        z-index: 1
+    
+    &__title
+        font-weight: bold
+        +rfs(18)
+        padding-bottom: 10px
+    
+    &__item
+        position: absolute
+        z-index: 2
+        top: 50px
+    
+.focus
+    background: $accent
+    padding-top: 95px
+    padding-bottom: 100px
+    &__text
+        text-align: justify
+        color: white
+        +rfs(14)
+        line-height: 140%
+
+.icons
+    padding-top: 30px
+
+    &__item
+        margin-right: 23px
+
+.slider
+    position: relative
+
+    &__video
+        position: absolute
+        top: -15px
+
+.contact-form
+    padding-top: 120px
+
+.concerns
+    padding-top: 55px
+    line-height: 140%
+    max-width: 434px
+
+.form-element
+    width: 100%
+    height: 40px
+    padding: 21px 146px 21px 30px
+    margin-bottom: 12px
