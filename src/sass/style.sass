@@ -58,6 +58,11 @@ a
         height: 50px
         background-color: white
         color: $accent
+    
+    &__sbt
+        background-color: $accent
+        width: 160px
+        color: white
 
 .main-section
     min-height: 100vh
@@ -109,7 +114,7 @@ a
 .video
     background: url('../img/vd_bg.png') center /cover
     border-radius: 10px
-    width: 445px
+    width: 70%
     height: 331px
     position: relative
 
@@ -120,7 +125,7 @@ a
         background-color: $accent
         border-radius: 50%
         bottom: 123px
-        left: 75px
+        left: -8%
 
 
     &-arrow    
@@ -190,7 +195,7 @@ a
     &__item
         position: absolute
         z-index: 2
-        top: 50px
+        top: 50%
     
 .focus
     background: $accent
@@ -228,3 +233,22 @@ a
     height: 40px
     padding: 21px 146px 21px 30px
     margin-bottom: 12px
+
+.form-item
+    height: 40px
+    padding: 21px 10px 21px 25px
+    margin-bottom: 20px
+    box-sizing: border-box
+    border-radius: 6px
+    border: 1px solid rgba(10, 1, 1, 0.466)
+
+
+@media screen and (max-width: 768px)
+    .main-section__item
+        +rfs(11)
+    
+    .description__link
+        padding-bottom: 50px
+
+@media screen and (max-width: 992px)
+    body

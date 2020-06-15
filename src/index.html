@@ -10,10 +10,10 @@
     <section class="main-section" id="main-section">
     <div class="container">
         <div class="row d-flex align-items-center">
-            <div class="col-3">
+            <div class="col-xl-3 col-lg-3 d-lg-block d-xl-block d-none">
                 <img src="./img/logo.png" alt="">
             </div>
-            <div class="col-6">
+            <div class=" col-lg-6 col-xl-6 col-12 col-sm-12">
                     <nav>
                         <ul class="main-section__nav d-flex justify-content-center">
                             <li class="main-section__item"><a href="#">Overview</a></li>
@@ -24,7 +24,7 @@
                         </ul>
                     </nav>
             </div>
-            <div class="col-3">
+            <div class="col-xl-3 col-lg-3 d-lg-block d-xl-block d-none">
                 <div class="login d-flex align-items-center justify-content-between">
                     <img src="./img/flag.png" alt="">
                         <div class="select">
@@ -53,16 +53,15 @@
     <section class="description" id="description">
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col-5">
+                <div class="col-md-5 ">
                     <h2>Easy to Use Cloud Budget Management Software</h2>
                     <p class="description__text">Our software is made so you can access and manage your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance. Read below to find out more.</p>
                     <a href="" class="description__link"> Learn more</a>
                 </div>
-                <div class="col-md-7 d-flex justify-content-center">
-                    <div class="video" alt=""></div>
-                    <div class="video-btn d-flex justify-content-center align-items-center">
+                <div class="col-md-7 col-12 d-flex justify-content-center">
+                    <div class="video" alt=""><div class="video-btn d-flex justify-content-center align-items-center">
                         <a href=""><div class="video-arrow"></div></a>
-                    </div>
+                    </div></div>
                 </div>
             </div>
         </div>
@@ -77,7 +76,7 @@
                 </div>
             </div>
             <div class="row d-flex justify-content-between ">
-                <div class="col-4">
+                <div class="col-4 ">
                     <div class="form text-center">
                         <div class="form__title">
                             <h3>Supports All Currencies and Cards</h3>
@@ -121,8 +120,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row d-flex justify-content-between">
-                <div class="col-3 text-center d-flex justify-content-center">
+            <div class="row pos d-flex justify-content-between">
+                <div class="col-12 col-md-3 text-center d-flex justify-content-center">
                     <div class="technology__item">
                         <img src="./img/icon-pdf.png" class="technology__icon" alt="">
                         <div class="technology__title">Cloud Storage</div>
@@ -132,7 +131,7 @@
                         <h4>01</h4>
                     </div>
                 </div>
-                <div class="col-3 text-center">
+                <div class="col-12 col-md-3 text-center d-flex justify-content-center">
                     <div class="technology__item">
                         <img src="./img/icon-pdf.png" class="technology__icon" alt="">
                         <div class="technology__title">Cloud Storage</div>
@@ -142,7 +141,7 @@
                         <h4>02</h4>
                     </div>
                 </div>
-                <div class="col-3 text-center">
+                <div class="col-12 col-md-3 text-center d-flex justify-content-center">
                     <div class="technology__item">
                         <img src="./img/icon-pdf.png" class="technology__icon" alt="">
                         <div class="technology__title">Cloud Storage</div>
@@ -152,7 +151,7 @@
                         <h4>03</h4>
                     </div>
                 </div>
-                <div class="col-3 text-center">
+                <div class="col-12 col-md-3 text-center d-flex justify-content-center">
                     <div class="technology__item">
                         <img src="./img/icon-pdf.png" class="technology__icon" alt="">
                         <div class="technology__title">Cloud Storage</div>
@@ -191,17 +190,32 @@
                     <h2>Contact</h2>
                     <p class="concerns">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
                 </div>
-                <div class="col-6">
-                    <form>
-                        <div class="form-row">
-                          <div class="col">
-                            <input type="text" class="form-element" placeholder="First name">
-                          </div>
-                          <div class="col">
-                            <input type="text" class="form-element" placeholder="Last name">
-                          </div>
-                        </div>
-                      </form>
+                    <div class="col col-lg-6">
+                        <form>
+                            <div class="form-row">
+                              <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control  form-item" placeholder="First Name">
+                              </div>
+                              <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control form-item" placeholder="Last name">
+                              </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-12 col-12">
+                                    <input type="num" class="form-control form-item" placeholder="Phone Number">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-12 col-12">
+                                    <select id="inputState" class="form-control form-item">
+                                        <option selected>idi naxyi</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="button__sbt button ">Log in</button>
+                    </div>
                 </div>
             </div>
         </div>
